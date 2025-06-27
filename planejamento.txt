@@ -1,0 +1,39 @@
+API publicada - https://miniprojeto-m4.onrender.com ✅
+
+1 - Desenvolver uma landing page - site de página única, que apresente os dados vindos da API( usanso ícones , imagens , elementos gráficos e fontes customizadas).
+2 - Lembarar do problema real que resolvi no m4 - Saúde Mental e qual a inspiração para o site. 
+3 - Cosumir a API do m4 , as 3 rotas get. Os dados devem ser apresentados em seção diferente no site. 
+
+Tecnologias usadas Next.js com Typescript.
+Código limpo e identado , sem erros.
+Arquitetura de componetes (componetização).
+Apenas uma página - landin page.
+A navegação entre as seções pode ser feita com scroll suave.
+Utilizar o TailwindCSS como framework de estilização , mas pode usar o CSS modules para estilização específica.
+Deve ser agradável e responsivo.
+Aplique animações como efeitos hover , focus ou com uso de bibliotecas (framer motion).
+Não utilizar bibliotecas prontas como (Bootstrap,Material UI , ShadCN).
+
+
+GitHub 
+Usar estrutura de commits , sendo elas o semantic commits, gitmoji entre outas. 
+Commit em inglês 
+O projeto precisa ter mais 5 commits
+Desenvolver uma readme bem elaborada 
+Contextualizando o projeto e as tecnologias usadas e suas versões. 
+Passo a passo para excutar o projeto
+Link da API utilizada.
+Conter imagens do projeto.
+Seção About(Sobre) do repositório:
+o link para o site caso esteja hospedado. 
+O link da postagem da apresentaçaõ do projeto.
+O projeto precisa ter 3 topics (tópicos/tags) selecionados.
+
+Apresentação 
+Apresentar o problema e a solução.
+O processo de elaboração da solução do problema
+Apresentar o sistema e qual a utilidade 
+Publicar no linkedin a apresentação juntamente com um texto descrevendo ou explicando.
+
+Entrega no link do formulário do classroom.
+Link do repositório do github e meu e-mail
