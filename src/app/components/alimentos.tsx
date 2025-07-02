@@ -8,7 +8,7 @@ interface alimentos {
   categoria: string;
 }
 
-export default async function LivrosPage() {
+export default async function AlimentosPage() {
   await new Promise((resolve) => setTimeout(resolve, 1000)); // simula carregamento
 
   let alimentos: alimentos[] = [];
@@ -31,10 +31,10 @@ export default async function LivrosPage() {
 
       {alimentos.map((alimentos) => (
         <div key={alimentos.id} className="bg-white rounded-lg shadow-md p-4 mb-4 w-full max-w-md">
-          <p><strong>Título:</strong> {alimentos.nome}</p>
-          <p><strong>Autor:</strong> {alimentos.beneficios}</p>
-          <p><strong>Ano:</strong> {alimentos.sugestão_de_receita}</p>
-          <p><strong>Gênero:</strong> {alimentos.categoria}</p>
+          <p><strong>Nome:</strong> {alimentos.nome}</p>
+          <p><strong>Benefíios:</strong> {alimentos.beneficios}</p>
+          <p><strong>Sugestão_de_receita:</strong> {alimentos.sugestão_de_receita}</p>
+          <p><strong>Categoria:</strong> {alimentos.categoria}</p>
         </div>
       ))}
     </div>
