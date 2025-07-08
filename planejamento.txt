@@ -1,4 +1,5 @@
-API publicada - https://miniprojeto-m4.onrender.com ✅
+API publicada - api-conectapsique.onrender.com ✅
+
 
 1 - Desenvolver uma landing page - site de página única, que apresente os dados vindos da API( usanso ícones , imagens , elementos gráficos e fontes customizadas).
 2 - Lembarar do problema real que resolvi no m4 - Saúde Mental e qual a inspiração para o site. 
