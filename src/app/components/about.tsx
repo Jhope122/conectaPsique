@@ -1,33 +1,50 @@
-"use client";
-
 export default async function AboutPage() {
-  let mensagem = '';
+  let mensagem = "";
 
   try {
-    const response = await fetch('https://api-conectapsique.onrender.com');
+    const response = await fetch("https://api-conectapsique.onrender.com");
     mensagem = await response.text();
-  } catch (error) {
-    mensagem = '<strong> 😥 404 - Erro ao carregar informações</strong>';
+  } catch {
+    mensagem = "<strong> 😥 404 - Erro ao carregar informações</strong>";
   }
 
   return (
     <section
       id="about"
-      className="flex items-center justify-center min-h-screen bg-purple-100 px-4 py-16"
-    >
-      <div className="bg-white rounded-3xl shadow-xl max-w-3xl w-full p-10 text-center border border-purple-200">
-        <div className="text-5xl mb-4">🧠</div>
-
-        <h1
-          className="text-2xl font-bold text-purple-800 mb-6"
-          dangerouslySetInnerHTML={{ __html: mensagem }}
-        />
-
-        <p className="text-gray-700 text-lg leading-relaxed">
-          O <strong>ConectaPsique</strong> é uma iniciativa desenvolvida com o propósito de promover o bem-estar emocional por meio da tecnologia. Através de uma API construída do zero, conectamos você a recomendações de livros inspiradores, cursos acessíveis e alimentos que nutrem mente e corpo.
-          <br /><br />
-          Mais do que um projeto, o ConectaPsique é um convite ao autocuidado, à leveza e ao conhecimento — feito com carinho, simplicidade e propósito. 💜
-        </p>
+      className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-r from-yellow-200 to-yellow-200 px-4 py-16">
+      <div className="max-w-5xl w-full bg-white rounded-3xl shadow-2xl border border-purple-200 p-8">
+        <div className="text-center mb-10 space-y-4">
+          <h2 className="text-4xl font-extrabold text-purple-500">
+            Seja bem-vindo(a) ao ConectaPsique
+          </h2>
+          <h3
+            className="text-lg text-black max-w-3xl mx-auto"
+            dangerouslySetInnerHTML={{ __html: mensagem }}/>
+        </div>
+        <input type="checkbox" id="toggle-about" className="peer hidden" />
+        <label
+          htmlFor="toggle-about"
+          className="cursor-pointer text-purple-500 font-bold mb-6 inline-block select-none text-center w-full">
+          Sobre a idealizadora e a iniciativa (clique para ver/ocultar)
+        </label>
+        <div className="max-h-0 overflow-hidden transition-all duration-700 peer-checked:max-h-[1000px] peer-checked:py-6 peer-checked:opacity-100 opacity-0 peer-checked:mt-4 flex flex-col md:flex-row gap-8">
+          <div className="w-full md:w-1/2 flex justify-center">
+            <img
+              src="/img/foto.jpg"
+              alt="Foto da idealizadora do ConectaPsique"
+              className="w-50 h-auto rounded-2xl shadow-md object-cover"
+            />
+          </div>
+          <div className="w-full md:w-1/2 text-center md:text-left space-y-4 text-gray-700">
+            <h3 className="text-2xl font-bold text-purple-800">
+            Idealizadora & Iniciativa
+            </h3>
+            <p className="leading-relaxed">
+              O <strong>ConectaPsique</strong> surgiu da vontade de conectar pessoas ao que há de mais acessível para o bem-estar emocional.
+              Com carinho e simplicidade, criei essa iniciativa para ajudar quem busca mais leveza e autoconhecimento.
+            </p>
+          </div>
+        </div>
       </div>
     </section>
   );
