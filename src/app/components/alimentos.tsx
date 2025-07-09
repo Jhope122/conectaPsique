@@ -15,7 +15,7 @@ export default async function AlimentosPage() {
     const response = await fetch("https://api-conectapsique.onrender.com/alimentos");
     if (!response.ok) throw new Error("Erro na API");
     alimentos = await response.json();
-  } catch (error) {
+  } catch  {
     console.error("Erro ao buscar dados:")
     return (
       <section id="alimentos" className="min-h-screen flex items-center justify-center p-6">
