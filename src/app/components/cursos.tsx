@@ -15,7 +15,7 @@ export default async function CursosPage() {
     const response = await fetch("https://api-conectapsique.onrender.com/cursos");
     if (!response.ok) throw new Error("Erro na API");
     cursos = await response.json();
-  } catch (error) {
+  } catch {
     console.error("Erro ao buscar dados:")
     return (
       <section id="cursos" className="min-h-screen flex items-center justify-center p-6">
