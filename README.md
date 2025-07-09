@@ -49,19 +49,19 @@ npm run dev
 ## 📂 Estrutura do projeto 
 
 📦 Conectapsique/
-┣ 📂public
-┃ ┗ 📂img
-┃   ┣ foto.jpg
-┣ 📂src
-┃ ┗ 📂app
-┃   ┣ 📂components
-┃   ┃ ┣  about.tsx
+┣ 📂 public
+┃ ┗ 📂 img
+┃   ┗ foto.jpg
+┣ 📂 src
+┃ ┗ 📂 app
+┃   ┣ 📂 components
+┃   ┃ ┣ about.tsx
 ┃   ┃ ┣ alimentos.tsx
 ┃   ┃ ┣ botoesnav.tsx
 ┃   ┃ ┣ cursos.tsx
 ┃   ┃ ┣ footer.tsx
 ┃   ┃ ┣ header.tsx
-┃   ┃ ┗livros.tsx
+┃   ┃ ┗ livros.tsx
 ┃   ┣ global.css
 ┃   ┣ layout.tsx
 ┃   ┗ page.tsx
@@ -73,8 +73,7 @@ npm run dev
 ┣ package.json
 ┣ planejamento.txt
 ┣ postcss.config.mjs
-┣ tsconfig.json
-
+┗ tsconfig.json
 ---
 ## 🔗 Link da API
 
