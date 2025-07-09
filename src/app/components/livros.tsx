@@ -19,7 +19,7 @@ export default async function LivrosPage() {
     if (!response.ok) throw new Error("Erro");
     livros = await response.json();
   } catch  {
-    console.error("Erro ao buscar dados:")
+    console.error("Erro ao buscar dados:");
     return (
       <section id="livros" className="min-h-screen flex items-center justify-center p-6">
         <p className="text-red-600 text-center text-lg">😥 Não foi possível carregar informações sobre os livros.</p>
