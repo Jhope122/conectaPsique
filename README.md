@@ -33,7 +33,7 @@ Essa é a **versão 2.0**, que une o front-end desenvolvido em Next.js + TypeScr
 ## 📝 Como rodar o projeto
 
 # 1. Clone o repositório
-git clone https://https://github.com/Jhope122/conectaPsique.git
+[`https://github.com/Jhope122/conectaPsique.git`](https://github.com/Jhope122/conectaPsique.git)
 
 # 2. Acesse a pasta
 cd nome-do-repositorio
