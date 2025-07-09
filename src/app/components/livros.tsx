@@ -18,7 +18,7 @@ export default async function LivrosPage() {
     const response = await fetch("https://api-conectapsique.onrender.com/livros");
     if (!response.ok) throw new Error("Erro");
     livros = await response.json();
-  } catch (error) {
+  } catch  {
     console.error("Erro ao buscar dados:")
     return (
       <section id="livros" className="min-h-screen flex items-center justify-center p-6">
