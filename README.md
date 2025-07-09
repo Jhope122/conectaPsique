@@ -86,7 +86,7 @@ A API utilizada neste projeto está disponível em:
 ## 🌐 Deploy
 
 - [Link do Site](https://conectapsique-5.onrender.com/)  
-- [Postagem no LinkedIn](--)
+- [Postagem no LinkedIn](https://www.linkedin.com/posts/giselegomesoliveira_ol%C3%A1-rede-hoje-apresento-a-landing-page-activity-7348783328889581568-_gEk?utm_source=share&utm_medium=member_desktop&rcm=ACoAADdceRwBBOrkY2hHSUhXAvTTfjACAPyMYvg)
 
 ---
 
