@@ -87,8 +87,14 @@ A API utilizada neste projeto está disponível em:
 
 - [Link do Site](https://conectapsique-5.onrender.com/)  
 - [Postagem no LinkedIn](--)
-- 
+
 ---
+
+## 🖼️ Fotos do Projeto
+
+As imagens do projeto estão disponíveis neste repositório dedicado:  
+🔗 [https://github.com/Jhope122/fotosm5.git](https://github.com/Jhope122/fotosm5.git)
+
 
 # ⚠️ Aviso Legal 
 
