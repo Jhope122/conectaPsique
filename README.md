@@ -49,31 +49,32 @@ npm run dev
 ## 📂 Estrutura do projeto 
 
 📦 Conectapsique/
-┣ 📂 public
-┃ ┗ 📂 img
-┃   ┗ foto.jpg
-┣ 📂 src
-┃ ┗ 📂 app
-┃   ┣ 📂 components
-┃   ┃ ┣ about.tsx
-┃   ┃ ┣ alimentos.tsx
-┃   ┃ ┣ botoesnav.tsx
-┃   ┃ ┣ cursos.tsx
-┃   ┃ ┣ footer.tsx
-┃   ┃ ┣ header.tsx
-┃   ┃ ┗ livros.tsx
-┃   ┣ global.css
-┃   ┣ layout.tsx
-┃   ┗ page.tsx
-┣ .gitignore
-┣ README.md
-┣ eslint.config.mjs
-┣ next.config.ts
-┣ package-lock.json
-┣ package.json
-┣ planejamento.txt
-┣ postcss.config.mjs
-┗ tsconfig.json
+├── 📂 public/
+│   └── 📂 img/
+│       └── foto.jpg
+├── 📂 src/
+│   └── 📂 app/
+│       ├── 📂 components/
+│       │   ├── about.tsx
+│       │   ├── alimentos.tsx
+│       │   ├── botoesnav.tsx
+│       │   ├── cursos.tsx
+│       │   ├── footer.tsx
+│       │   ├── header.tsx
+│       │   └── livros.tsx
+│       ├── global.css
+│       ├── layout.tsx
+│       └── page.tsx
+├── .gitignore
+├── README.md
+├── eslint.config.mjs
+├── next.config.ts
+├── package-lock.json
+├── package.json
+├── planejamento.txt
+├── postcss.config.mjs
+└── tsconfig.json
+
 ---
 ## 🔗 Link da API
 
